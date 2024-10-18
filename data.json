@@ -1,0 +1,99 @@
+{
+  "navbarLogo": {
+      "logo": "logo.png"
+    },
+  "profile": {
+    "name": "Fulop Emeric-Emy",
+    "description": "I am currently studying full-stack development at Io Academy in England, focusing on both front-end and back-end technologies. My passion lies in web design and front-end development. I am dedicated to enhancing my skills in both areas to create comprehensive and efficient applications. Open to discussions, job opportunities, and collaborations in the web and software development fields. Feel free to reach out for job offers or freelance projects. ",
+    "bannerImage": "banner.png"
+  },
+
+  "navbar": [
+    {
+      "id": "aboutButton",
+      "label": "About",
+      "link": "#profileSection"
+    },
+    {
+      "id": "projectsButton",
+      "label": "Projects",
+      "link": "#projects"
+    },
+    {
+      "id": "resumeButton",
+      "label": "Resume",
+      "link": "#workExperience"
+    },
+    {
+      "id": "contactButton",
+      "label": "Contact",
+      "link": "#contact"
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "My first Portfolio",
+      "description": "This site represents my first project received during <a href='https://ioacademy.co.uk/' target='_blank' class='text-[#201f20] hover:text-[#5c2e97] hover:underline transition duration-300'>iO Academy</a> bootcamp. It showcases my initial skills in HTML and CSS, providing a foundation for future development work. ",
+      "technologiesUsed": "HTML, CSS, Git, PHP Storm",
+      "link": "https://fe-emy.github.io/portofolio/",
+      "livePreviewUrl": "https://fe-emy.github.io/portofolio/"
+    },
+    {
+      "title": "Collector App",
+      "description": "The Collectors App is a web application designed for managing and showcasing personal collections. Users can view and add items, with each item categorized by theme and detailed with statistics. ",
+      "technologiesUsed": "PHP, Sequel Ace, Docker, Heroku, JawsDB, Git, PHP Storm",
+      "link": "https://collector-app-4933a67ea673.herokuapp.com/",
+      "livePreviewUrl": "https://collector-app-4933a67ea673.herokuapp.com/"
+    }
+  ],
+
+  "workExperience": [
+    {
+      "company": "iO Academy",
+      "role": "Full Stack Developer Student.",
+      "duration": "  July-December 2024",
+      "description": "Currently attending an intensive bootcamp focused on full-stack development, covering HTML, CSS, JavaScript, Tailwind CSS, React and backend technologies such as PHP and MySQL. I am developing real-world projects that showcase my skills in web development and build a foundation for a career in software development."
+    },
+    {
+      "company": "Company Two",
+      "role": "Frontend Engineer.",
+      "duration": " Mar 2019 - Jan 2020",
+      "description": "Implemented responsive designs and optimized user interfaces."
+    }
+  ],
+
+  "skills": {
+    "spokenLanguages": [
+      { "name": "Romanian", "level": "expert" },
+      { "name": "English", "level": "expert" },
+      { "name": "German", "level": "expert" }
+    ],
+    "programmingLanguages": [
+      { "name": "HTML", "level": "advanced" },
+      { "name": "CSS", "level": "advanced" },
+      { "name": "Java Script", "level": "proficient" },
+      { "name": "Tailwind CSS", "level": "intermediate" },
+      { "name": "PHP", "level": "intermediate" },
+      { "name": "React", "level": "novice" },
+      { "name": "JSON API", "level": "intermediate" }
+    ],
+    "developmentEnvironments": [
+      { "name": "PHP Storm", "level": "advanced" },
+      { "name": "GitHub", "level": "advanced" },
+      { "name": "Docker", "level": "proficient" },
+      { "name": "Sequel Ace", "level": "proficient" },
+      { "name": "Heroku", "level": "proficient" }
+    ],
+    "agileMethodology": [
+      { "name": "Team Leadership", "level": "novice" },
+      { "name": "Agile Methodologies", "level": "intermediate" }
+    ]
+  },
+
+  "contact": {
+    "email": "f.emeric.em@gmail.com",
+    "location": "Freiburg, Germany"
+  }
+}
+

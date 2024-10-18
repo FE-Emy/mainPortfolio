@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <meta content="Fulop Emeric portfolio including " name="description">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel='stylesheet'>
+    <link href="logo.png" rel="icon" type="image/png">
+    <link href="output.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body class="text-white">
+<section class="fixed top-0 left-0 w-full z-10" id="navBar">
+    <nav class="flex items-center justify-between p-1 bg-[#303030] bg-opacity-10 backdrop-blur-md">
+    </nav>
+</section>
+<main class="flex items-center justify-center h-screen bg-cover bg-center text-center" id="profileSection" style="background-image: url('banner.png');">
+    <div class="w-3/4 lg:w-1/2 bg-black/10 backdrop-blur-md p-8 rounded-3xl" id="profileInfo">
+        <h2 class="text-5xl font-bold mb-6" id="profileName"></h2>
+        <p class="text-lg leading-relaxed" id="profileDescription"></p>
+        <div class="flex justify-center space-x-4 mt-4">
+            <a class="text-white hover:text-gray-300 text-2xl" href="https://github.com/FE-Emy" target="_blank">
+                <i class='bx bxl-github'></i>
+            </a>
+            <a class="text-white hover:text-gray-300 text-2xl" href="https://www.linkedin.com/feed/" target="_blank">
+                <i class='bx bxl-linkedin-square'></i>
+            </a>
+            <a class="text-white hover:text-gray-300 text-2xl" href="https://www.instagram.com/fulopemy/profilecard/?igsh=Z254M280MXlhajdj" target="_blank">
+                <i class='bx bxl-instagram'></i>
+            </a>
+        </div>
+    </div>
+</main>
+<section class="p-8 bg-[#303030]" id="coreValues">
+    <h2 class="text-3xl font-bold mb-11 mt-6 text-left">Core Values</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+        <div class="bg-[#424242] p-6 rounded-lg shadow-lg shadow-indigo-500/50">
+            <h3 class="text-xl font-semibold mb-4">Integrity</h3>
+            <p>Committed to honesty and transparency in all interactions and decisions.</p>
+        </div>
+        <div class="bg-[#424242] p-6 rounded-lg shadow-lg shadow-indigo-500/50">
+            <h3 class="text-xl font-semibold mb-4">Excellence</h3>
+            <p>Dedicated to continuous improvement and delivering high-quality results.</p>
+        </div>
+        <div class="bg-[#424242] p-6 rounded-lg shadow-lg shadow-indigo-500/50">
+            <h3 class="text-xl font-semibold mb-4">Collaboration</h3>
+            <p>Value teamwork and the sharing of ideas to achieve common goals.</p>
+        </div>
+    </div>
+</section>
+<section class="p-8 bg-[#303030]" id="projects">
+    <h2 class="text-3xl font-bold mb-11 mt-6">Projects</h2>
+</section>
+<section class="p-8 bg-[#303030]" id="workExperience">
+    <h2 class="text-2xl md:text-3xl font-bold mb-11 mt-6 text-left inline-block">Work Experience</h2>
+</section>
+<section class="p-8 bg-[#303030]" id="skills">
+    <h2 class="text-3xl font-bold mb-11">Skills</h2>
+    <div class="flex flex-wrap justify-center gap-16" id="skillsContainer"></div>
+</section>
+<section class="p-8 bg-zinc-700/80 text-white text-center flex flex-col items-center" id="contact">
+    <div class="flex justify-center space-x-4 w-full max-w-2xl">
+        <img alt="Profile Picture" class="w-36 h-44 rounded-lg mr-6" src="profilpic.png">
+        <div class="flex flex-col items-start text-left space-y-2">
+            <div class="flex items-center space-x-2 mb-4">
+                <h2 class="text-3xl font-bold pt-6">Get in touch.</h2>
+            </div>
+            <div class="space-y-1">
+                <p class="text-lg flex items-center"><i class='bx bx-mail-send'>&nbsp;</i><span id="email"></span></p>
+                <p class="text-lg flex items-center"><i class='bx bx-current-location'>&nbsp;</i> <span id="location"></span></p>
+            </div>
+        </div>
+    </div>
+    <div class="mt-6">
+        <button class="flex items-center justify-center" onclick="scrollToTop()">
+            <i class="bx bxs-chevrons-up bx-flip-horizontal bx-fade-up text-5xl"></i>
+        </button>
+    </div>
+    <div class="flex justify-center space-x-4 mt-4">
+        <a class="text-white hover:text-gray-300 text-2xl" href="https://github.com/FE-Emy" target="_blank">
+            <i class='bx bxl-github'></i>
+        </a>
+        <a class="text-white hover:text-gray-300 text-2xl" href="https://www.linkedin.com/feed/" target="_blank">
+            <i class='bx bxl-linkedin-square'></i>
+        </a>
+        <a class="text-white hover:text-gray-300 text-2xl" href="https://www.instagram.com/fulopemy/profilecard/?igsh=Z254M280MXlhajdj" target="_blank">
+            <i class='bx bxl-instagram'></i>
+        </a>
+    </div>
+    <footer class="mt-6 text-gray-400">
+        <p>© 2024 Fulop Emeric | All rights reserved</p>
+    </footer>
+</section>
+</body>
+</html>

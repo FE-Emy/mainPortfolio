@@ -4,10 +4,10 @@ View my Portfolio here: [Portfolio](https://fe-emy.github.io/mainPortfolio/)
 
 Languages & Technologies Used
 
-- PHP
-- MySQL
-- Docker
-- Heroku
-- JawsDB
-- Git
+- HTML
+- Java Script
+- Tailwind CSS
+- JSON
 - PHP Storm
+- Docker
+- Git
